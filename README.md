@@ -1,1 +1,1 @@
-Modelo Hopfield grupo 6
+Modelo Hough Gabelloni
