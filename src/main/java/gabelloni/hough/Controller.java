@@ -124,6 +124,8 @@ public class Controller {
 		for (Circulo circulo : circulos) {
 			Graphics2D g2 = imagenOriginal.createGraphics();
 			g2.setColor(Color.GREEN);
+			BasicStroke stroke = new BasicStroke(4);
+			g2.setStroke(stroke);
 			g2.drawOval(circulo.x0 - RADIO, circulo.y0 - RADIO, RADIO * 2, RADIO * 2);
 			g2.dispose();
 		}
