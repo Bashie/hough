@@ -19,7 +19,7 @@ public class TransformadaHoughCirculo {
 		this.ancho = imagen.getWidth();
 		this.alto = imagen.getHeight();
 		this.radio = radio;
-		cantidadDePuntos = 0;
+		cantidadDePuntos = 1;
 	}
 
 	public Vector<Circulo> getCirculos(Integer cantidad) {
